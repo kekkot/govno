@@ -1,0 +1,25 @@
+﻿<Window x:Class="самообучение.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:самообучение"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250.892" Width="515.307">
+    <Grid>
+        <Button Content="Создать" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click"/>
+        <TextBox x:Name="Name2" HorizontalAlignment="Left" Height="23" Margin="377,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <StackPanel HorizontalAlignment="Left" Height="41" Margin="10,43,0,0" VerticalAlignment="Top" Width="60">
+            <RadioButton Content="War" Name="War" GroupName="First" HorizontalAlignment="Left" VerticalAlignment="Top" Height="18"/>
+            <RadioButton Content="Rouge" Name="Rouge" GroupName="First" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="41" Margin="435,43,0,0" VerticalAlignment="Top" Width="62">
+            <RadioButton Content="War" Name="War2" GroupName="Two" HorizontalAlignment="Left" VerticalAlignment="Top" Height="18"/>
+            <RadioButton Content="Rouge" Name="Rouge2" GroupName="Two" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+        <TextBox x:Name="LogText" HorizontalAlignment="Left" Height="149" Margin="131,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" HorizontalScrollBarVisibility="Visible"/>
+        <Button Content="Создать"  HorizontalAlignment="Left" Margin="398,84,0,0" VerticalAlignment="Top" Width="99" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
